@@ -1,0 +1,21 @@
+/*
+Theme Name: sibyllesblog
+Author: Sibylle Eid
+Description: My WordPress development sandbox
+Version: 0.0.1
+Requires at least: 6.1 
+Tested up to: 6.1
+Requires PHP: 8.1.9
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: sibyllesblog
+*/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+/* Typography */
+html {
+	font-size: 62.5%;
+}

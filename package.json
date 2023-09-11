@@ -1,0 +1,16 @@
+{
+  "name": "sibyllesblog",
+  "version": " 0.0.1",
+  "description": "My WordPress development sandbox",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.12.0",
+    "path": "^0.12.7",
+    "webpack-remove-empty-scripts": "^1.0.4"
+  },
+  "author": "Sibylle Eid",
+  "license": "GPLv3 or later"
+}

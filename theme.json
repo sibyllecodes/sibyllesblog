@@ -1,0 +1,227 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1100px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#D1D1E4",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#E4D1D1",
+          "name": "Secondary"
+        },
+        {
+          "slug": "darkgrey",
+          "color": "rgb(51, 51, 51)",
+          "name": "Dark grey"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "primary-to-secondary",
+          "gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
+          "name": "Primary to Secondary"
+        },
+        {
+          "slug": "radial-lightgrey",
+          "gradient": "radial-gradient(128.42% 48.36% at 72.89% 25.8%,rgba(89,94,94,9%) 0,rgba(89,94,94,0) 100%)",
+          "name": "Radial light grey"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#1d1f35", "#6cace4"],
+          "slug": "dark-blue-and-light-blue",
+          "name": "Dark blue and light blue"
+        },
+        {
+          "colors": ["#1d1f35", "#c7c0af"],
+          "slug": "dark-blue-and-beige",
+          "name": "Dark blue and beige"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Lora,serif",
+          "slug": "lora",
+          "name": "Lora",
+          "fontFace": [
+            {
+              "fontFamily": "Lora",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/lora-regular-webfont.woff2"]
+            },
+            {
+              "fontFamily": "Lora",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/lora-italic-webfont.woff2"]
+            },
+            {
+              "fontFamily": "Lora",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/lora-bold-webfont.woff2"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "Montserrat",
+          "slug": "montserrat",
+          "name": "Montserrat",
+          "fontFace": [
+            {
+              "fontFamily": "Montserrat",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/montserrat-regular-webfont.woff2"]
+            },
+            {
+              "fontFamily": "Montserrat",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "src": ["file:./assets/fonts/montserrat-semibold-webfont.woff2"]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "1rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "1.3125rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "1.5rem",
+          "name": "Large"
+        },
+        {
+          "slug": "xlarge",
+          "size": "2rem",
+          "name": "Extra Large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--darkgrey)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--lora)",
+      "fontSize": "var(--wp--preset--font-size--medium)",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "lineHeight": "1.5"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": ""
+        },
+        ":hover": {
+          "color": {
+            "text": ""
+          },
+          "typography": {
+            "textDecoration": ""
+          }
+        },
+        ":focus": {
+          "color": {
+            "text": ""
+          },
+          "typography": {
+            "textDecoration": ""
+          }
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--montserrat)"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--xlarge)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--large)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--medium)"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--medium)"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "button": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--montserrat)"
+        }
+      },
+      "caption": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--montserrat)",
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "cite": {}
+    },
+    "blocks": {
+      "core/table": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--montserrat)",
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "core/calendar": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--montserrat)",
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "core/navigation": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--montserrat)",
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      }
+    }
+  }
+}
